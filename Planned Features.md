@@ -12,3 +12,12 @@ How it'll work (subject to change):
 - That will create a new row in the tree, with a file icon on the left (yet to be designed)
 - A input field will get focus, into which the user should input the name and extension of the file
 - When the user presses the `enter`/`return` key, the input will lose focus, and any changes to the file name will be committed.
+
+### Adding a folder
+Priority: 2
+
+How it'll work (subject to change):
+- Press an Add Folder button
+- That will create a new row in the tree, with a folder icon on the left (yet to be designed)
+- A input field will get focus, into which the user should input the name of the folder
+- When the user presses the `enter`/`return` key, the input will lose focus, and any changes to the folder name will be committed.
