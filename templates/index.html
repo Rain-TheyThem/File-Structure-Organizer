@@ -1,13 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title>File Structure Organizer</title>
-        <meta name="viewport" content="width=device-width, intitial-scale=1">
-        
-        <!-- Link to CSS file -->
-        <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
-    </head>
-    <body>
-        <h1>File Structure Organizer</h1>
-    </body>
-</html>
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+    <h1>File Organizer</h1>
+{% endblock %}
